@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Whats up brothers! Salaam al aiykum</h2>
+
+    <form action="/action.php" method="post">
+        <input type="text" name="name" placeholder="Your name">
+        <br>
+        <input type="text" name="nick name" placeholder="nick name">
+        <br><br>
+
+        <p> Pick the following:</p>
+
+        <h2>What series or movie do you wanna watch?</h2>
+        <label>
+            <input type="radio" name="watch_choice" value="fast and furious" class="idiots"> Fast and Furious
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="watch_choice" value="mother of dragons" class="idiots"> Mother of Dragons
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="watch_choice" value="chichore" class="idiots"> Chhichhore film
+        </label>
+
+        <h2>Pick your name bro</h2>
+        <p>
+            <label for="id2">
+                <input type="checkbox" id="id2" value="wahaj qasim" name="inter_students"> Wahaj Qasim
+            </label>
+            <label for="id3">
+                <input type="checkbox" id="id3" value="faraz saqib" name="inter_students"> Faraz Saqib
+            </label>
+            <label for="id4">
+                <input type="checkbox" id="id4" value="wajeeh ul hassan" name="inter_students"> Wajeeh Ul Hassan
+            </label>
+            <label for="id5">
+                <input type="checkbox" id="id5" value="muhammad irshad" name="inter_students"> Muhammad Irshad
+            </label>
+            <br>
+            <label for="id6">
+                <input type="checkbox" id="id6" value="azlaan asad" name="inter_students"> Azlaan Asad
+            </label>
+        </p>
+
+        <h3>Select your favourite destination</h3>
+        <select name="destination">
+            <option value="kashmir">Kashmir</option>
+            <option value="bahawalpur">Bahawalpur</option>
+            <option value="Naraan kaghaan valley">Naran Kaghan Valley</option>
+            <option value="poland">Poland</option>
+            <option value="America">America</option>
+        </select>
+        <br><br>
+
+        <p>
+            Have you read darood shareef 
+            <label>
+                <input type="radio" name="darood_today" value="yes" class="Royality"> Yes
+            </label>
+            <label>
+                <input type="radio" name="darood_today" value="no" class="Royality"> No
+            </label>
+        </p>
+
+        <h5>Feedback</h5>
+        <textarea name="feedback" placeholder="Please give feedback" rows="6"></textarea>
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
